@@ -1,0 +1,11 @@
+<template name="video">
+    <view class="video">
+        <image src="{{img_url}}"/>
+        <view class="video-title">
+            <text>{{title}}</text>
+        </view>
+        <view class="viewcount">
+            <text>{{viewcount}}次人观看</text>
+        </view>
+    </view>
+</template>

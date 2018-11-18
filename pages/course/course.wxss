@@ -1,0 +1,8 @@
+/* pages/course/course.wxss */
+page {
+  background-color: #f5f7fb;
+}
+
+.courses {
+  padding: 0 20rpx 20rpx 20rpx;
+}

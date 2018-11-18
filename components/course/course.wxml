@@ -1,0 +1,17 @@
+<view class="course">
+    <!-- 左边的图片 -->
+    <image src="{{course.img_url}}"></image>
+    <!-- 中间的标题和副标题 -->
+    <view class="title">
+        <view class="title1">
+            <text>{{course.title}}</text>
+        </view>
+        <view class="subtitle">
+            <text>{{course.subtitle}}</text>
+        </view>
+    </view>
+    <!-- 右边的按钮 -->
+    <view class="tips" style="background-color:{{course.isFull?'#CACACA':'#FF547C'}};">
+        <text>{{course.isFull ? '人数已满':'了解课程'}}</text>
+    </view>
+</view>

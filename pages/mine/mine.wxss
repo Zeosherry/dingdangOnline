@@ -1,0 +1,27 @@
+/* pages/mine/mine.wxss */
+page{
+  background-color: #f5f7fb;
+}
+
+.user{
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  height: 431rpx;
+  flex-direction: column;
+  background: #fff;
+}
+
+.user image{
+  width:120rpx;
+  height: 120rpx;
+}
+
+.user text{
+  font-size: 15px;
+  margin-top: 10rpx;
+}
+
+.experiseDate,.other-setting{
+  margin-top:20rpx;
+}

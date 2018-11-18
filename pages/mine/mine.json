@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "setting":"/components/setting/setting"
+  }
+}

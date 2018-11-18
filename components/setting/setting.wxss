@@ -1,0 +1,24 @@
+/* components/setting/setting.wxss */
+.setting{
+  height: 100rpx;
+  padding:0 15rpx 0 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  /* background-color: red; */
+}
+
+.title{
+  font-size: 15px;
+}
+
+.date{
+  color: #666;
+  font-size: 12px;
+}
+
+.setting image{
+  width:60rpx;
+  height: 60rpx;
+}

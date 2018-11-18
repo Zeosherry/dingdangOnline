@@ -1,0 +1,14 @@
+<wxs src="../../utils/dateformat.wxs" module="m1"/>
+<!--components/setting/setting.wxml-->
+<view bindtap='tapSetting' data-id="{{setting.id}}" class="setting">
+  <text class="title">{{setting.title}}</text>
+  <block wx:if="{{setting.type==='date'}}">
+    <text class="date">{{m1.formatTime(setting.date)}}</text>
+  </block>
+  <block wx:elif="{{setting.type==='arrow'}}">
+    <image src="{{setting.img_url}}"></image>
+  </block>
+  <block wx:elif="{{setting.type==='switch'}}">
+     <switch checked />
+  </block>
+</view>

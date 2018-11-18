@@ -1,0 +1,19 @@
+<!--pages/mine/mine.wxml-->
+<view>
+  <!-- 1.0 头像区域 -->
+  <view class="user">
+    <image src="{{user.avatar}}"></image>
+    <text>{{user.name}}</text>
+  </view>
+  <!-- 2.0 到期时间 -->
+  <view class="experiseDate"> 
+    <setting setting="{{expiresData}}"/> 
+  </view>
+
+  <!-- 3.0 其它设置 -->
+  <view class="other-setting">
+    <block wx:for="{{settings}}" wx:key="{{item.id}}">
+      <setting bind:myevent="getTapId" setting="{{item}}"/> 
+    </block>
+  </view>
+</view>
